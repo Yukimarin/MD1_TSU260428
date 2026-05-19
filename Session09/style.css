@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 250px;
+    height: 500px;
+    background-color: aqua;
+    display:flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.container .box:nth-child(1){
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.container .box:nth-child(2){
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.container .box:nth-child(3){
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+/* Position: static, relative, absolute, sticky, fixed */
